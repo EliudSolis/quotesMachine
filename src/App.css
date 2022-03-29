@@ -40,7 +40,7 @@
 
 .btn {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100px;
   height: 32px;
   border-radius: 8px;

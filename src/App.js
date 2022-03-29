@@ -16,6 +16,7 @@ let [quotes, setQuotes] = useState(Quotes.quotes[randomNumber])
   //Now we have to change the background color so we define our useState
   const [color, setColor] = useState("blue");
 
+//Make a function to change colors of backgrounds
 const changingColor = () => {
   const randomColor = Math.floor(Math.random()*7);
   
@@ -39,6 +40,7 @@ const changingColor = () => {
 }
 }
 
+//And making a function to change the quote 
 const newQuote = () => {
   const randomNumber = Math.floor(Math.random()*lenghtQuotes);
   setQuotes(Quotes.quotes[randomNumber]);
